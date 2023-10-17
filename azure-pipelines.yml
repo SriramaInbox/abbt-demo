@@ -16,8 +16,7 @@ steps:
     allowTelemetryCollection: true
 
 - task: TerraformCLI@1
-  displayName: Terraform Plan
+  displayName: Terrafor Validate
   inputs:
-    command: 'plan'
-    environmentServiceName: 'Azure subscription 1(ce7d032e-6df9-4170-a5e5-1e161ccd69cd)'
-    allowTelemetryCollection: false
+    command: 'validate'
+    allowTelemetryCollection: true
