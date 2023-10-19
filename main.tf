@@ -57,7 +57,7 @@ resource "azurerm_resource_group" "aks_rg" {
 
 #2.Configure Azure Container Registry
 resource "azurerm_container_registry" "aks_acr" {
-  name                = "ABBTAzureContainerRegistry181023"
+  name                = "ABBTAzureContainerRegistry191023"
   resource_group_name = azurerm_resource_group.aks_rg.name
   location            = azurerm_resource_group.aks_rg.location
   sku                 = "Basic"
