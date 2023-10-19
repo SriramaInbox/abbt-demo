@@ -28,3 +28,10 @@ steps:
     command: 'apply'
     environmentServiceName: 'Azure subscription 1(ce7d032e-6df9-4170-a5e5-1e161ccd69cd)'
     allowTelemetryCollection: false
+
+- task: TerraformCLI@1
+  displayName: Terraform Destroy
+  inputs:
+    command: 'destroy'
+    environmentServiceName: 'Azure subscription 1(ce7d032e-6df9-4170-a5e5-1e161ccd69cd)'
+    allowTelemetryCollection: false
