@@ -1,11 +1,11 @@
 #1.Configure Azure Resource Group
-resource_group_name = "ABBTResourceGroup002"
+resource_group_name = "ABBTResourceGroup003"
 location            = "eastus"
 
 #3.Configure Azure Kubernetes Cluster
-cluster_name        = "ABBTAKSCluster19oct23"
+cluster_name        = "ABBTAKSCluster19oct2023"
 kubernetes_version  = "1.27.1"
-node_resource_group = "ABBTInfrastructureResourceGroup"
+node_resource_group = "ABBTInfrastructureResourceGroup01"
 system_node_count   = "3"
 
 #4.Configure Network Profile

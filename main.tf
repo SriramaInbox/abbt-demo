@@ -57,7 +57,7 @@ resource "azurerm_resource_group" "aks_rg" {
 
 #2.Configure Azure Container Registry
 resource "azurerm_container_registry" "aks_acr" {
-  name                = "ABBTAzureContainerRegistry191023"
+  name                = "ABBTAzureContainerRegistry19102023"
   resource_group_name = azurerm_resource_group.aks_rg.name
   location            = azurerm_resource_group.aks_rg.location
   sku                 = "Basic"
@@ -116,7 +116,7 @@ resource "azurerm_role_assignment" "ra" {
 }
 
 resource "azurerm_key_vault" "aks_kv" {
-  name                        = "ABBTKeyValult101023"
+  name                        = "ABBTKeyValult19102023"
   resource_group_name         = azurerm_resource_group.aks_rg.name
   enabled_for_disk_encryption = true
   tenant_id                   = data.azurerm_client_config.current.tenant_id
