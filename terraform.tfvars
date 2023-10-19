@@ -1,6 +1,6 @@
 #1.Configure Azure Resource Group
 resource_group_name = "ABBTResourceGroup001"
-location            = "centralindia"
+location            = "eastus"
 
 #3.Configure Azure Kubernetes Cluster
 cluster_name        = "ABBTAKSCluster18oct23"
